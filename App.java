@@ -18,6 +18,7 @@ public class App {
 	}
 
 	public static void getObjeto() {
+		//test
 		Client client = Client.create();
 		WebResource webResource = client.resource("http://localhost:8080/getEmpleado");
 
